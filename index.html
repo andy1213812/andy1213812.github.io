@@ -1,0 +1,133 @@
+<!:3 helloooo>
+<html>
+
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>YUAN CHEN</title>
+    <link rel = "stylesheet" href = "code.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/986aa4c680.js" crossorigin="anonymous"></script>
+</head>
+    
+<body>
+<section class = "header">
+    <nav>
+        <a href="website.html"><img src = 'image/logo.png'></a>
+        <div class = "nav-links" id="navLinks">
+            <i class="fa fa-solid fa-arrow-right-to-bracket" onclick = "hideMenu()"></i>
+            <ul>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "about.html">ME</a></li>
+                <li><a href = "">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fs fa-solid fa-bars" onclick = "showMenu()"></i>
+    </nav>
+
+<div class = "text-box">
+    <h1>HI, IM <span class = "auto-type"></span></h1>
+    <p>A SOPHMORE Data Scientesit from Penn State University</p>
+    <!class button can use it in css>
+    <a href = "about.html" class = "me-btn">Learn more about me</a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    var typed = new Typed(".auto-type",{
+        strings: [" "," ","YUAN","YU'AN","ANDY","ANDY :)"],
+        typeSpeed: 130,
+        backSpeed: 100,
+        loop: true
+    })
+</script>
+
+    
+</section>
+    
+<!------PROJECT------>
+
+<section class="Project">
+    <h1>Past Project</h1>
+    <p>Some project that I did before</p>
+    <div class = "row">
+        <div class = "Project-col">
+            <h3>Viusally Impaired tool</h3>
+            <a href = "https://youtu.be/KrN-yxxsFm4" class = "me-btn">CLICK ME</a>
+            <p>A browser tool helping visually-impaired individuals more fully interact with the online world.</p>
+        </div>
+        <div class = "Project-col">
+            <h3>Auto-checkout bot</h3>
+            <a href = "" class = "me-btn">CLICK ME</a>
+            <p>A bot that can do all the things such as add-to-cart and checkout by itself on walmart and amazon.</p>
+        </div>
+        <div class = "Project-col">
+            <h3>Discord bot</h3>
+            <a href = "" class = "me-btn">CLICK ME</a>
+            <p>A chat bot that can communicate with your and you can ask questions and he will answer.</p>
+        </div>
+    
+    </div>
+</section>
+    
+<section class = "LINE">
+    <h1>----------------------------------------------------------------------------</h1>
+    
+    <h2>----------------------------------------------------------------------------</h2>
+    
+</section>
+<section class= "ME">
+    <h1>About Me</h1>
+    <p>Some Fun fact about me</p>
+    <p>Instead of studying, I am also enjoying workout with my friend and travel around </p>
+    <div class = "row">
+        <div class = "ME-col">
+            <img src='image/school.jpeg'>
+            <div class= "layer">
+                <h3>
+                    PENN STATE
+                </h3>
+            </div>
+        </div>
+        <div class = "ME-col">
+            <img src='image/me.png'>
+            <div class= "layer">
+                <h3>
+                    YUAN CHEN
+                </h3>
+            </div>
+        </div>
+        <div class = "ME-col">
+            <img src='image/PHLI.png'>
+            <div class= "layer">
+                <h3>
+                    PHOTOSHOOT
+                </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------JS for menu------ -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function  showMenu(){
+        navLinks.style.right = "0";
+    }
+    function  hideMenu(){
+        navLinks.style.right = "-300px";
+    }
+    
+</script>
+
+<!--------end--------->
+<section class = "END">
+    <h1>THANK YOU FOR VIEWING MY WEBSITE</h1>
+    <a href = "about.html#contactishere" class = "me-btn">CONTACT ME </a>
+</section>
+    
+     
+    
+</body>
+</html>
