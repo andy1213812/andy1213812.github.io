@@ -4,13 +4,13 @@
     box-sizing: border-box;
     
 }
-body{
-    background-color:  #BAB2B5;
-}
 .navbar{
     display: flex;
     align-items: center;
     padding: 20px 
+}
+body{
+    font-family: 'Edu SA Beginner', cursive;
 }
 nav{
     flex: 1;
@@ -27,11 +27,11 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color:#EEE2DC;
+    color:#fff;
     
 }
 p{
-    color:#EEE2DC;
+    color:#fff;
 }
 
 .container{
@@ -71,7 +71,9 @@ p{
     border-radius: 30px;
 }
 
-
+.header{
+    background: radial-gradient(#84CEEB,#5AB9EA)
+}
 
 
 
