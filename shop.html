@@ -23,7 +23,7 @@
              <img src ="image/shoplogo.png" width = "125px">
          </div>
          <nav>
-             <ul>
+             <ul id = "menuItems">
                  <li><a href = "">HOME</a></li>
                  <li><a href = "">PRODUCT</a></li>
                  <li><a href = "">ABOUT</a></li>
@@ -31,7 +31,9 @@
                  <li><a href = "">ACCOUNT</a></li>s
              </ul>
          </nav>
-            <img src = "image/images/cart.png" width="30px" height="30px">s
+            <img src = "image/images/cart.png" width="30px" height="30px">
+            <img src = "image/images/menu.png" class = "menu-icon"
+                 oneclick = "menutoggle()">
      </div>
         <div class = "row">
             <div class = "col-2">
@@ -173,9 +175,22 @@
     </div>
 </div>
     
-    
-    
-    
+<!---------------------JS------------------>  
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
     
     
     
