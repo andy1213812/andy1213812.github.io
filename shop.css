@@ -200,9 +200,12 @@ ul{
     width: 140px;
 }
 
+/*----------------Menu Icon--------------*/
 
-
-
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
 
 
 
